@@ -1,0 +1,5 @@
+import random
+
+lotto_numbers = random.sample(range(1, 46), 6)
+lotto_numbers.sort()
+print("추천 로또 번호 ===", *lotto_numbers)
